@@ -13,3 +13,34 @@ Read me is not Not finished yet
 * typescript
 * Bootstrap
 * Jest framework
+
+
+# How to install
+```
+git clone https://github.com/MostafaBalata/react-starter.git
+```
+
+```
+yarn
+```
+or for npm users
+```
+npm i
+```
+
+# How to Run
+
+```
+yarn serve
+```
+
+check it on
+```
+http://localhost:8080/#/dashboard
+```
+
+# How to test
+
+```
+yarn test
+```
