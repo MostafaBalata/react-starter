@@ -1,5 +1,5 @@
 # reactjs-typescript
-Reactjs project with typescript and sass kick starter
+React js project that combine the most recent modern technologies together, which make it easy for people who are starting new project.
 
 # Important
 Read me is not Not finished yet
