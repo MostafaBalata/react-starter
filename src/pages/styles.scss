@@ -1,0 +1,10 @@
+@import "../styles/variables/variables.scss";
+
+.app {
+  margin-top: $header-height;
+
+  .well {
+    font-size: 20px;
+    margin-left: 24rem;
+  }
+}

@@ -1,0 +1,28 @@
+// Import
+@import "../../styles/variables/variables.scss";
+
+.header {
+  /* stylelint-ignore */
+  width: 100%;
+  height: $header-height;
+  position: fixed;
+  top: 0;
+  z-index: 1040;
+  left: $left-menu-width;
+
+  padding: $header-space;
+
+  box-shadow: 0 1px 2px 0 rgba(40, 42, 49, 0.16);
+  background-color: #2e2d30;
+  color: white;
+
+  line-height: $header-height;
+
+  font-size: $header-font-size;
+  font-weight: bold;
+  text-align: center;
+
+  p {
+    color: $gray;
+  }
+}

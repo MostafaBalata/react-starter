@@ -1,0 +1,19 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:8
+    steps:
+      - checkout
+      - run:
+          name: Greeting
+          command: echo Hello, world.
+      - run:
+          name: Install dependancies
+          command: yarn
+      - run:
+          name: Linter
+          command: yarn tslint
+      - run:
+          name: Testing
+          command: yarn test

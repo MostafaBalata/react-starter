@@ -1,0 +1,26 @@
+// Import variables
+@import "variables/variables.scss";
+
+:global {
+  // Expose libs styles
+  @import "./libs/bootstrap/bootstrap.scss";
+  @import "./base/bootstrap-override.scss";
+
+  // Expose base styles
+
+  // Set the global font-size in order
+  // to be able to have `1rem = 10px`.
+  html {
+    font-size: 62.5%;
+  }
+
+  * {
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  .big-title {
+    font-size: 15rem;
+    font-weight: 100;  
+  }
+
+}

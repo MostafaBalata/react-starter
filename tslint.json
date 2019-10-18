@@ -1,0 +1,24 @@
+{
+  "extends": [
+    "tslint:recommended",
+    "tslint-react",
+    "tslint-config-prettier",
+    "tslint-react-a11y"
+  ],
+  "rulesDirectory": [
+    "./node_modules/tslint-eslint-rules/dist/rules"
+  ],
+  "rules": {
+    "object-literal-sort-keys": false,
+    "interface-name": false,
+    "array-type": [true, "generic"]
+  },
+  "linterOptions": {
+    "exclude": [
+      "node_modules/**",
+      "**/*.spec.ts?(x)",
+      "test/**",
+      "**/*.json"
+    ]
+  }
+}
